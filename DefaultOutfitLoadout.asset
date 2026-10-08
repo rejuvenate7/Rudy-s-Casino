@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f3a5fc5f97d67c4daaae8b3386adcb8, type: 3}
+  m_Name: DefaultOutfitLoadout
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLoadout
+  loadoutId: default_outfit
+  idleSprite: {fileID: 21300000, guid: 0b216e90b50c4a049a042bcf6569909e, type: 3}
+  walkFrames:
+  - {fileID: 21300000, guid: faa8aafc3588f194f986d957d2302162, type: 3}
+  - {fileID: 21300000, guid: 074d519d51b2c244f8edc0009d33ccd4, type: 3}
+  - {fileID: 21300000, guid: faa8aafc3588f194f986d957d2302162, type: 3}
+  - {fileID: 21300000, guid: 2986e03b47ceab84791067067cdd9f81, type: 3}
+  secondsPerWalkFrame: 0.5
+  attackStyleId: punch

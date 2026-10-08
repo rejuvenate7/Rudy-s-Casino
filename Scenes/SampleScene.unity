@@ -1,0 +1,2986 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &72098550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 72098551}
+  m_Layer: 0
+  m_Name: lvl1_TalkPoint_Doorman
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &72098551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72098550}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.46, y: 0.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &119643184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 119643185}
+  m_Layer: 0
+  m_Name: lvl1_TalkPoint_MurrBody
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &119643185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119643184}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.31, y: -3.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &173541614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 173541616}
+  - component: {fileID: 173541615}
+  - component: {fileID: 173541617}
+  - component: {fileID: 173541619}
+  - component: {fileID: 173541618}
+  - component: {fileID: 173541622}
+  - component: {fileID: 173541621}
+  - component: {fileID: 173541620}
+  - component: {fileID: 173541623}
+  - component: {fileID: 173541624}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &173541615
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173541614}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 88bdad0771232c74396e78bd642bd5fd, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.14, y: 8.87}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!4 &173541616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173541614}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.8, y: -2.2, z: 0}
+  m_LocalScale: {x: 0.53, y: 0.53, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 630763405}
+  - {fileID: 1752559560}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &173541617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173541614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d80df911242b0724a81d8df444c3cf90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerSpriteController
+  moveSpeed: 2
+  idleSprite: {fileID: 21300000, guid: 0b216e90b50c4a049a042bcf6569909e, type: 3}
+  walkFrames:
+  - {fileID: 21300000, guid: faa8aafc3588f194f986d957d2302162, type: 3}
+  - {fileID: 21300000, guid: 074d519d51b2c244f8edc0009d33ccd4, type: 3}
+  - {fileID: 21300000, guid: faa8aafc3588f194f986d957d2302162, type: 3}
+  - {fileID: 21300000, guid: 2986e03b47ceab84791067067cdd9f81, type: 3}
+  secondsPerFrame: 0.5
+  footstepAudioSource: {fileID: 0}
+  footstepSounds:
+  - {fileID: 8300000, guid: 2536d202450d2bc44a223575b4c033f5, type: 3}
+  - {fileID: 8300000, guid: 1ca0cc361582be8489a61ced9b2503b6, type: 3}
+  - {fileID: 8300000, guid: f2654779211eaa343935b00b18b34ace, type: 3}
+  - {fileID: 8300000, guid: fec53f31d4f100e468ab165deadb4454, type: 3}
+  - {fileID: 8300000, guid: 850b07ebfb13db040adcb8d2c47b667b, type: 3}
+  footstepVolume: 0.293
+  avoidImmediateFootstepRepeat: 1
+--- !u!61 &173541618
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173541614}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.27, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.91, y: 8.87}
+    newSize: {x: 3.14, y: 8.87}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.32, y: 8.87}
+  m_EdgeRadius: 0
+--- !u!114 &173541619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173541614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6374eb14ab220384ab6824dfab6b1081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CombatHealth
+  team: 1
+  disappearOnDeath: 1
+  maxHealth: 100
+  hitInvulnerabilitySeconds: 0.5
+  hitbox: {fileID: 173541618}
+  onDamaged:
+    m_PersistentCalls:
+      m_Calls: []
+  onDied:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &173541620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173541614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add9931962ba7ab43a841ae8bcd55a60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CombatHitFeedback
+  targetRenderer: {fileID: 0}
+  whiteFlashShader: {fileID: 4800000, guid: ce18f38c55fae01419a56ee3ef213106, type: 3}
+  flashSeconds: 0.1
+  defaultLandedSound: {fileID: 8300000, guid: 4efed677a438af8478f2dbc7d5aa7c59, type: 3}
+  defaultSoundVolume: 0.069
+  defaultHitVfxPrefab: {fileID: 0}
+  defaultVfxLifetime: 2
+--- !u!114 &173541621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173541614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29a7814495d645843b998ae69bcc46b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCombatController
+  punchAttack: {fileID: 173541622}
+  punchSprite: {fileID: 4505764762537584597, guid: 29de6c3814b3b9c4395d0a7166e422e9, type: 3}
+  punchCooldownSeconds: 0.65
+  fightingStyles:
+  - styleId: platter
+    attackBehaviour: {fileID: 173541623}
+    attackSprite: {fileID: 21300000, guid: 53f07837ca9800048b01e5073db9ee23, type: 3}
+    cooldownSeconds: 0.8
+    requiredBossId: james
+    attackOrigin: {fileID: 630763405}
+    useCustomAttackOriginOffset: 0
+    attackOriginOffset: {x: 0.6, y: 0.4}
+  - styleId: taser
+    attackBehaviour: {fileID: 173541624}
+    attackSprite: {fileID: 21300000, guid: 88bdad0771232c74396e78bd642bd5fd, type: 3}
+    cooldownSeconds: 0.8
+    requiredBossId: xenk
+    attackOrigin: {fileID: 1752559560}
+    useCustomAttackOriginOffset: 0
+    attackOriginOffset: {x: 0.6, y: 0.4}
+  startingStyleId: punch
+  attackOrigin: {fileID: 630763405}
+  attackOriginOffset: {x: 0.6, y: 0.4}
+  attackAudioSource: {fileID: 0}
+--- !u!114 &173541622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173541614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e5a4c3029ecc1747b3b9f31bafcf30f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PunchAttack
+  attackRange: 1.1
+  windupSeconds: 0.12
+  recoverySeconds: 0.25
+  attackSound: {fileID: 8300000, guid: c89ca72da66499a489c65fed7863ac4b, type: 3}
+  soundVolume: 0.032
+  landedSound: {fileID: 8300000, guid: a7e2b322e24fe3049991e1c0c87899f4, type: 3}
+  landedVolume: 0.021
+  releaseVfxPrefab: {fileID: 0}
+  landedVfxPrefab: {fileID: 0}
+  vfxLifetime: 2
+  onWindup:
+    m_PersistentCalls:
+      m_Calls: []
+  onRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  onAttackFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  onCancelled:
+    m_PersistentCalls:
+      m_Calls: []
+  damage: 10
+  verticalReach: 0.8
+  hitLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &173541623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173541614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7023066d2f8a476468f01936f5afde9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlatterThrowAttack
+  attackRange: 6
+  windupSeconds: 0.6
+  recoverySeconds: 0.35
+  attackSound: {fileID: 8300000, guid: c285668109333c148b9d03485acea0da, type: 3}
+  soundVolume: 0.074
+  landedSound: {fileID: 8300000, guid: 4f7aa2b9ace8aed4e93e0800d4180478, type: 3}
+  landedVolume: 0.037
+  releaseVfxPrefab: {fileID: 0}
+  landedVfxPrefab: {fileID: 0}
+  vfxLifetime: 2
+  onWindup:
+    m_PersistentCalls:
+      m_Calls: []
+  onRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  onAttackFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  onCancelled:
+    m_PersistentCalls:
+      m_Calls: []
+  platterSprite: {fileID: 21300000, guid: 6e113591770f01b498351e8561e8dec8, type: 3}
+  platterWidth: 1
+  projectileSpeed: 9
+  hitRadius: 0.15
+  damage: 10
+  projectileLifetime: 4
+  spinDegreesPerSecond: 180
+  hitLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  sortingOrderOffset: 1
+--- !u!114 &173541624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173541614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e7660067f2e8e4180de35fc670c0ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TaserLightningAttack
+  attackRange: 6
+  windupSeconds: 0.45
+  recoverySeconds: 0.3
+  attackSound: {fileID: 8300000, guid: f5fc766950df70740832fa4ff4196be9, type: 3}
+  soundVolume: 0.101
+  landedSound: {fileID: 0}
+  landedVolume: 1
+  releaseVfxPrefab: {fileID: 0}
+  landedVfxPrefab: {fileID: 0}
+  vfxLifetime: 2
+  onWindup:
+    m_PersistentCalls:
+      m_Calls: []
+  onRelease:
+    m_PersistentCalls:
+      m_Calls: []
+  onAttackFinished:
+    m_PersistentCalls:
+      m_Calls: []
+  onCancelled:
+    m_PersistentCalls:
+      m_Calls: []
+  damage: 15
+  hitRadius: 0.35
+  hitLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  lightningDuration: 0.22
+  lightningSegments: 20
+  jaggedness: 0.22
+  flickerInterval: 0.025
+  coreWidth: 0.045
+  glowWidth: 0.18
+  coreColor: {r: 1, g: 1, b: 1, a: 1}
+  glowColor: {r: 0.15, g: 0.75, b: 1, a: 0.8}
+  branchCount: 3
+  branchLength: 0.28
+  sortingOrderOffset: 10
+  coreMaterial: {fileID: 0}
+  glowMaterial: {fileID: 0}
+--- !u!1 &187255931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 187255933}
+  - component: {fileID: 187255932}
+  m_Layer: 0
+  m_Name: FinalBossAmbush
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &187255932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187255931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f621094a776bba4199ef7df7e12442b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossAmbushTrigger
+  player: {fileID: 173541616}
+  playerApproachesFromLeft: 0
+  triggerXOffset: 0
+  requiredBackground: {fileID: 8232475697741154643, guid: a9ba47ee20a33ce42a6830c78cfbadf3, type: 3}
+  backgroundWithoutNpc: {fileID: 21300000, guid: 960ba7d71b5c6d843b89543bd9217b38, type: 3}
+  bossFight:
+    bossPrefab: {fileID: 9200589722664095970, guid: 01f373754933b1d4d88b8521832564b4, type: 3}
+    spawnPoint: {fileID: 1532077804}
+    spawnPosition: {x: 4, y: -2, z: 0}
+    introDialogue: You thought you could infiltrate Rudy Mafia? Haha...
+    introDuration: 3
+    italicizeIntro: 0
+    introVoiceLine: {fileID: 8300000, guid: 295a2a3ba1acefb4c89779eb2ac3cdf1, type: 3}
+    introVoiceVolume: 0.314
+    resetPlayerHealth: 1
+    confinePlayerToArena: 1
+    backgroundMusicTrack: level3
+    fadeAfterBossDefeated: 1
+    bossDefeatedFadeOutDuration: 0.8
+    bossDefeatedFadeInDuration: 0.8
+    onBossDefeated:
+      m_PersistentCalls:
+        m_Calls: []
+    playerDefeatedSprite: {fileID: 21300000, guid: 499e550fcfab8e34f93aa69f87c6967b, type: 3}
+    playerDefeatedSpriteScale: 0.7
+    playerDefeatedDialogue: Goodbye.. Frank
+    playerDefeatedDialogueDuration: 2.5
+    italicizePlayerDefeatedDialogue: 0
+    playerDefeatedVoiceLine: {fileID: 8300000, guid: df6433d18d3cd97458828a9fa20c39e1, type: 3}
+    playerDefeatedVoiceVolume: 0.489
+    cutsceneAfterPlayerDefeated: FinalCutscene
+    onPlayerDefeated:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!4 &187255933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187255931}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.98, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &204171508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 204171509}
+  m_Layer: 0
+  m_Name: XenkSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &204171509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204171508}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.38, y: -1.68, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &280476017
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 280476018}
+  m_Layer: 0
+  m_Name: lvl1_TalkPoint_Cozy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &280476018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280476017}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.84, y: 1.15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &378794957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378794959}
+  - component: {fileID: 378794958}
+  m_Layer: 0
+  m_Name: VoiceLineAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &378794958
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378794957}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &378794959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378794957}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.76379, y: -0.4196, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1523055775}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &400642604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400642606}
+  - component: {fileID: 400642605}
+  m_Layer: 0
+  m_Name: CutsceneAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &400642605
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400642604}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.555
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &400642606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400642604}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.74827, y: -0.4196, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1523055775}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &471167786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 471167787}
+  m_Layer: 0
+  m_Name: lvl3_Cane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &471167787
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471167786}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.71, y: -0.33, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &519420028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  - component: {fileID: 519420030}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 34
+  orthographic: 1
+  orthographic size: 5.4
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &619394800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 619394802}
+  - component: {fileID: 619394801}
+  m_Layer: 0
+  m_Name: Global Light 2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &619394801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619394800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ComponentVersion: 4
+  m_LightType: 4
+  m_BlendStyleIndex: 0
+  m_Light2DProvider:
+    rid: -2
+  m_SelectionSources:
+    rid: 1220149464061968399
+  m_FalloffIntensity: 0.5
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_LightVolumeIntensity: 1
+  m_LightVolumeEnabled: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowsEnabled: 0
+  m_ShadowIntensity: 0.75
+  m_ShadowSoftness: 0
+  m_ShadowSoftnessFalloffIntensity: 0.5
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.75
+  m_LocalBounds:
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 1220149464061968399
+      type: {class: Light2DProviderSources, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_SelectedHashCode: 4
+        m_SelectedSource:
+          rid: -2
+        m_Provider2DCache:
+          rid: 1220149464061968587
+    - rid: 1220149464061968587
+      type: {class: 'Provider2DCache`1[[UnityEngine.Rendering.Universal.Light2DProvider, Unity.RenderPipelines.Universal.2D.Runtime]]', ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data:
+        m_Cache: []
+--- !u!4 &619394802
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619394800}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &630763404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 630763405}
+  m_Layer: 0
+  m_Name: PlatterSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &630763405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630763404}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.68, y: 2.11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 173541616}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &663988897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 663988898}
+  m_Layer: 0
+  m_Name: lvl1_TalkPoint_Trainee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &663988898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663988897}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.54, y: 0.18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &752878169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 752878170}
+  m_Layer: 0
+  m_Name: lvl2_TalkPoint_murrmemorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &752878170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752878169}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.25, y: -0.78, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &843701596
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 843701598}
+  - component: {fileID: 843701597}
+  - component: {fileID: 843701599}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &843701597
+SpriteRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843701596}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -10
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: ca4db91a1cd576940ab3ef72e2ffa85b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.2, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+  m_BlendShapeWeights: []
+--- !u!4 &843701598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843701596}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &843701599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843701596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b5e27f2f96063438413aa98a958d44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BackgroundController
+  backgroundRenderer: {fileID: 843701597}
+  targetCamera: {fileID: 0}
+  useSolidColorBars: 1
+  barColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!1 &852380178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 852380180}
+  - component: {fileID: 852380179}
+  m_Layer: 0
+  m_Name: WalkAwayAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &852380179
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852380178}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.195
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &852380180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852380178}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.74827, y: -0.4196, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1523055775}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1211697977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1211697978}
+  m_Layer: 0
+  m_Name: lvl1_TalkPoint_GodElevator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1211697978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211697977}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.83, y: -0.78, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1269022688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1269022689}
+  m_Layer: 0
+  m_Name: lvl1_TalkPoint_Elevator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1269022689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269022688}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.52, y: -0.78, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1466398889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1466398890}
+  m_Layer: 0
+  m_Name: lvl1_TalkPoint_John
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1466398890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466398889}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.32, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1497091647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1497091648}
+  m_Layer: 0
+  m_Name: ButlerSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1497091648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497091647}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.38, y: -2.17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1523055773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1523055775}
+  - component: {fileID: 1523055774}
+  - component: {fileID: 1523055776}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1523055774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523055773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1edb42e7b840a8940ba5b47aa3bce82e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  defeatedBossIds: []
+  persistBossProgress: 0
+  bossProgressSaveKey: Frank.DefeatedBosses.v1
+  onKilledBossEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  lvl1_1: {fileID: 21300000, guid: 0d1c5d1988f488b4f8a7be52f36f7b2f, type: 3}
+  lvl1_2: {fileID: 21300000, guid: adea4314a9229164f9abfda9df0a57db, type: 3}
+  lvl1_3: {fileID: 21300000, guid: ca4db91a1cd576940ab3ef72e2ffa85b, type: 3}
+  lvl1_4: {fileID: 21300000, guid: b25d77ce0725f48489f061540b6ec8cb, type: 3}
+  showStartMenuOnLaunch: 1
+  startMenuBackground: {fileID: 21300000, guid: 0d1c5d1988f488b4f8a7be52f36f7b2f, type: 3}
+  menuBackgroundBlurRadius: 1.7
+  startMenuTitle: RUDY'S CASINO
+  startGameTalkPointSetName: lvl1_1
+  startMenuTitleFontSize: 72
+  menuButtonFontSize: 34
+  menuButtonSize: {x: 360, y: 72}
+  startMenuDimColor: {r: 0, g: 0, b: 0, a: 0.52}
+  startMenuTitleColor: {r: 1, g: 1, b: 1, a: 1}
+  menuButtonColor: {r: 0.04, g: 0.04, b: 0.04, a: 0.9}
+  menuButtonTextColor: {r: 1, g: 1, b: 1, a: 1}
+  gameOverTitle: GAME OVER
+  gameOverMessage: You failed to infiltrate Rudy Mafia...
+  gameOverFont: {fileID: 0}
+  gameOverFontSize: 86
+  gameOverMessageFontSize: 30
+  gameOverTextColor: {r: 0.95, g: 0.04, b: 0.04, a: 1}
+  gameOverMessageColor: {r: 1, g: 0.78, b: 0.78, a: 1}
+  gameOverTintColor: {r: 0.28, g: 0, b: 0, a: 0.52}
+  gameOverTextOutlineThickness: 1
+  gameOverTextOutlineColor: {r: 0.08, g: 0, b: 0, a: 0.95}
+  gameOverFadeInDuration: 0.8
+  player: {fileID: 173541616}
+  interactionCamera: {fileID: 0}
+  useHorizontalDistanceOnly: 1
+  showPlayerHealth: 1
+  healthTextTopLeft: {x: 30, y: 25}
+  healthFontSize: 36
+  healthTextColor: {r: 1, g: 1, b: 1, a: 0.8}
+  talkPointSets:
+  - setName: lvl1_1
+    talkPoints:
+    - pointName: Bob
+      actionType: 0
+      promptText: E
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 0
+      location: {fileID: 2107638312}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 1
+      dialogueText: '???: Doesn''t seem too interested in talking with you'
+      dialogueDuration: 2
+      voiceLine: {fileID: 8300000, guid: d9ffc473cfe3b114881f8a63a798077b, type: 3}
+      voiceLineVolume: 1
+      italicizeDialogue: 1
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: 
+      playCutsceneOnlyOnce: 1
+    - pointName: John
+      actionType: 0
+      promptText: E
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 0
+      location: {fileID: 1466398890}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 1
+      dialogueText: 'Bartender: Hey, want something to drink?'
+      dialogueDuration: 2
+      voiceLine: {fileID: 8300000, guid: 528113475e7c40041ada299176cdd23f, type: 3}
+      voiceLineVolume: 0.087
+      italicizeDialogue: 0
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: 
+      playCutsceneOnlyOnce: 1
+    - pointName: Surfer
+      actionType: 0
+      promptText: E
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 0
+      location: {fileID: 1593752331}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 1
+      dialogueText: 'Surfer Dude: Another day with no waves...See that guy at the
+        poker table? He gets really mad if you win and accuses everyone of cheating.
+        You should play him.'
+      dialogueDuration: 5
+      voiceLine: {fileID: 8300000, guid: e75489d02affe3c468f127b493845abd, type: 3}
+      voiceLineVolume: 1
+      italicizeDialogue: 0
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: 
+      playCutsceneOnlyOnce: 1
+    - pointName: Doorman
+      actionType: 0
+      promptText: E
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 0
+      location: {fileID: 72098551}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 1
+      dialogueText: 'Doorman: Welcome to The Casino! Established August 18th, 1227
+        by Rudy, thousands of people come each year for a chance to win it all. Current
+        lottery: $10M.'
+      dialogueDuration: 5
+      voiceLine: {fileID: 8300000, guid: b648781c1225b2c48a199aaa4814eab1, type: 3}
+      voiceLineVolume: 0.24
+      italicizeDialogue: 0
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: 
+      playCutsceneOnlyOnce: 1
+  - setName: lvl1_2
+    talkPoints:
+    - pointName: John
+      actionType: 0
+      promptText: E
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 0
+      location: {fileID: 1466398890}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 1
+      dialogueText: 'Bartender: Hey, want something to drink?'
+      dialogueDuration: 2
+      voiceLine: {fileID: 8300000, guid: 528113475e7c40041ada299176cdd23f, type: 3}
+      voiceLineVolume: 0.087
+      italicizeDialogue: 0
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: 
+      playCutsceneOnlyOnce: 1
+    - pointName: Surfer
+      actionType: 0
+      promptText: E
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 0
+      location: {fileID: 1593752331}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 1
+      dialogueText: 'Surfer Dude: Another day with no waves...See that guy at the
+        poker table? He gets really mad if you win and accuses everyone of cheating.
+        You should play him.'
+      dialogueDuration: 5
+      voiceLine: {fileID: 8300000, guid: e75489d02affe3c468f127b493845abd, type: 3}
+      voiceLineVolume: 1
+      italicizeDialogue: 0
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: 
+      playCutsceneOnlyOnce: 1
+    - pointName: Doorman
+      actionType: 0
+      promptText: E
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 0
+      location: {fileID: 72098551}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 1
+      dialogueText: 'Doorman: Welcome to The Casino! Established August 18th, 1227
+        by Rudy, thousands of people come each year for a chance to win it all. Current
+        lottery: $10M.'
+      dialogueDuration: 5
+      voiceLine: {fileID: 8300000, guid: b648781c1225b2c48a199aaa4814eab1, type: 3}
+      voiceLineVolume: 0.513
+      italicizeDialogue: 0
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: 
+      playCutsceneOnlyOnce: 1
+    - pointName: James
+      actionType: 0
+      promptText: E
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 0
+      location: {fileID: 663988898}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 1
+      dialogueText: 'James: Hey, want to play a round of poker?'
+      dialogueDuration: 1
+      voiceLine: {fileID: 8300000, guid: 6e8e4b8049864504695a4c714e81e393, type: 3}
+      voiceLineVolume: 0.72
+      italicizeDialogue: 0
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: JamesCutscene
+      playCutsceneOnlyOnce: 1
+  - setName: lvl1_3
+    talkPoints:
+    - pointName: MurrBody
+      actionType: 2
+      promptText: E (Loot)
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 1
+      location: {fileID: 119643185}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 2
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 116374400140161160, guid: d3ee9148ea369bc41b5e98926a53ae93, type: 3}
+      playerLoadoutOnInteract: {fileID: 11400000, guid: cf8dde877e7aa424192b9f9895d308ac, type: 2}
+      interactionSound: {fileID: 8300000, guid: 110bf1ddb51c4a04f8b3331667d8abe7, type: 3}
+      interactionSoundVolume: 0.227
+      dialogueText: You take James' outfit to use as a disguise.
+      dialogueDuration: 2
+      voiceLine: {fileID: 0}
+      voiceLineVolume: 0
+      italicizeDialogue: 0
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: lvl1_4
+      cutsceneAfterDialogue: 
+      playCutsceneOnlyOnce: 0
+  - setName: lvl1_4
+    talkPoints:
+    - pointName: elevator
+      actionType: 1
+      promptText: E (Enter)
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 1
+      location: {fileID: 1269022689}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 0
+      dialogueText: 
+      dialogueDuration: 0
+      voiceLine: {fileID: 0}
+      voiceLineVolume: 0
+      italicizeDialogue: 0
+      elevatorAfterInteraction: level1_elevator
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: 
+      playCutsceneOnlyOnce: 0
+    - pointName: cozy
+      actionType: 0
+      promptText: E
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 1
+      location: {fileID: 280476018}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 0
+      dialogueText: A large hanging banner of a mysterious pony, the icon of Rudy's
+        Casino.
+      dialogueDuration: 3
+      voiceLine: {fileID: 0}
+      voiceLineVolume: 0
+      italicizeDialogue: 1
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: 
+      playCutsceneOnlyOnce: 0
+  - setName: lvl2_1
+    talkPoints:
+    - pointName: xenk
+      actionType: 0
+      promptText: E
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 1
+      location: {fileID: 2070402563}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 0
+      dialogueText: Back so soon James? ...wait, you aren't James, why are you wearing
+        his clothes? WHAT DID YOU DO WITH MURR? He was my best friend.
+      dialogueDuration: 6
+      voiceLine: {fileID: 8300000, guid: 1b33d66d78d070d40846e2399838c214, type: 3}
+      voiceLineVolume: 0.36
+      italicizeDialogue: 0
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: XenkCutscene
+      playCutsceneOnlyOnce: 0
+    - pointName: murr
+      actionType: 0
+      promptText: E
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 1
+      location: {fileID: 752878170}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 0
+      dialogueText: A picture of J. Murray, recognizing his dedication for being
+        an exemplary butler in training.
+      dialogueDuration: 4
+      voiceLine: {fileID: 0}
+      voiceLineVolume: 0.36
+      italicizeDialogue: 1
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: 
+      playCutsceneOnlyOnce: 0
+  - setName: lvl2_2
+    talkPoints:
+    - pointName: elevator
+      actionType: 1
+      promptText: E (Enter)
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 1
+      location: {fileID: 1269022689}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 0
+      dialogueText: 
+      dialogueDuration: 0.1
+      voiceLine: {fileID: 0}
+      voiceLineVolume: 0.36
+      italicizeDialogue: 0
+      elevatorAfterInteraction: level2_elevator
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: XenkCutscene
+      playCutsceneOnlyOnce: 0
+  - setName: lvl3_1
+    talkPoints:
+    - pointName: CANE
+      actionType: 0
+      promptText: E
+      customPromptBoxSize: {x: 0, y: 0}
+      useOnlyOnce: 1
+      location: {fileID: 471167787}
+      worldPosition: {x: 0, y: 0}
+      interactionRange: 1
+      promptOffset: {x: 0, y: 0}
+      backgroundOnInteract: {fileID: 0}
+      playerLoadoutOnInteract: {fileID: 0}
+      interactionSound: {fileID: 0}
+      interactionSoundVolume: 0
+      dialogueText: You look into the glass and see Nick's Mysterious Cane
+      dialogueDuration: 3
+      voiceLine: {fileID: 0}
+      voiceLineVolume: 0.36
+      italicizeDialogue: 1
+      elevatorAfterInteraction: 
+      talkPointSetAfterInteraction: 
+      cutsceneAfterDialogue: 
+      playCutsceneOnlyOnce: 0
+  elevatorSequences:
+  - elevatorName: level1_elevator
+    elevatorBackground: {fileID: 21300000, guid: b38ca462fde6c0f41a9e324655467640, type: 3}
+    playerStartPosition: {x: 0, y: -0.68, z: 0}
+    playerOutfitOnEnter: {fileID: 0}
+    playerScaleMultiplier: 2
+    playerXBounds: {x: -3.8, y: 3.8}
+    interactionRange: 2
+    promptOffset: {x: 0, y: 0}
+    healPointPosition: {x: -3.76, y: 2.15}
+    healPrompt: E (Heal)
+    healSound: {fileID: 8300000, guid: ad9df3f62d4a08a4f97fb4d91247ced1, type: 3}
+    healSoundVolume: 0.059
+    inventoryPointPosition: {x: 4.06, y: 0}
+    inventoryPrompt: E (Unlocks)
+    exitPointPosition: {x: 0, y: -4.45}
+    exitPrompt: E (Leave)
+    npcAppearanceChance: 0
+    npcElevatorBackground: {fileID: 0}
+    npcDialogue: 
+    npcDialogueDuration: 0
+    italicizeNpcDialogue: 0
+    npcVoiceLine: {fileID: 0}
+    npcVoiceVolume: 0
+    destinationBackground: {fileID: -9169779059902781347, guid: 86b5dec1b84e6984493951a7d7f80997, type: 3}
+    destinationTalkPointSet: lvl2_1
+    destinationMusicTrack: level2
+    setDestinationPlayerPosition: 1
+    destinationPlayerPosition: {x: 6.75, y: -1.94, z: 0}
+    elevatorMusicTrack: elevator
+    enterFadeOutDuration: 1
+    enterFadeInDuration: 1
+    exitFadeOutDuration: 1
+    exitFadeInDuration: 1
+  - elevatorName: level2_elevator
+    elevatorBackground: {fileID: 21300000, guid: b38ca462fde6c0f41a9e324655467640, type: 3}
+    playerStartPosition: {x: 0, y: -0.68, z: 0}
+    playerOutfitOnEnter: {fileID: 11400000, guid: 68f5c5f37288e6c46abcc7487e318105, type: 2}
+    playerScaleMultiplier: 2
+    playerXBounds: {x: -3.8, y: 3.8}
+    interactionRange: 2
+    promptOffset: {x: 0, y: 0}
+    healPointPosition: {x: -3.76, y: 2.15}
+    healPrompt: E (Heal)
+    healSound: {fileID: 8300000, guid: ad9df3f62d4a08a4f97fb4d91247ced1, type: 3}
+    healSoundVolume: 0.059
+    inventoryPointPosition: {x: 4.06, y: 0}
+    inventoryPrompt: E (Unlocks)
+    exitPointPosition: {x: 0, y: -4.45}
+    exitPrompt: E (Leave)
+    npcAppearanceChance: 0
+    npcElevatorBackground: {fileID: 0}
+    npcDialogue: 
+    npcDialogueDuration: 0
+    italicizeNpcDialogue: 0
+    npcVoiceLine: {fileID: 0}
+    npcVoiceVolume: 0
+    destinationBackground: {fileID: 8232475697741154643, guid: a9ba47ee20a33ce42a6830c78cfbadf3, type: 3}
+    destinationTalkPointSet: lvl3_1
+    destinationMusicTrack: level2
+    setDestinationPlayerPosition: 1
+    destinationPlayerPosition: {x: 6.75, y: -1.94, z: 0}
+    elevatorMusicTrack: elevator
+    enterFadeOutDuration: 1
+    enterFadeInDuration: 1
+    exitFadeOutDuration: 1
+    exitFadeInDuration: 1
+  inventoryPanelSize: {x: 760, y: 560}
+  inventoryTitleFontSize: 38
+  inventoryButtonFontSize: 28
+  inventoryPanelColor: {r: 0.03, g: 0.03, b: 0.03, a: 0.96}
+  inventoryTextColor: {r: 1, g: 1, b: 1, a: 1}
+  interactionPrompt: E
+  promptFontSize: 32
+  promptBoxSize: {x: 50, y: 50}
+  promptTextColor: {r: 1, g: 1, b: 1, a: 1}
+  dialogueFontSize: 32
+  dialogueBoxSize: {x: 1000, y: 150}
+  dialogueBottomMargin: 30
+  dialogueTextPadding: {x: 10, y: 10}
+  dialogueBoxColor: {r: 0, g: 0, b: 0, a: 0.31764707}
+  dialogueTextColor: {r: 1, g: 1, b: 1, a: 1}
+  fullTextHoldDuration: 2
+  voiceLineAudioSource: {fileID: 378794958}
+  interactionSoundAudioSource: {fileID: 0}
+  backgroundMusicAudioSource: {fileID: 1873379989}
+  backgroundMusicTracks:
+  - trackName: level1
+    musicClip: {fileID: 8300000, guid: 0ffedf295c4fef24a94fa60fb505d8bf, type: 3}
+    volume: 0.003
+  - trackName: level1boss
+    musicClip: {fileID: 8300000, guid: 3819b3cbaaf63df448a4096cc315827f, type: 3}
+    volume: 0.008
+  - trackName: elevator
+    musicClip: {fileID: 8300000, guid: f0ef124075904d844a16c8266ba0f652, type: 3}
+    volume: 0.008
+  - trackName: level2
+    musicClip: {fileID: 8300000, guid: 8f6fcd375ba1c194984a254a7ad158db, type: 3}
+    volume: 0.008
+  - trackName: level2flashback
+    musicClip: {fileID: 8300000, guid: 394507434b4eb2d4fb3bc1b9a3688634, type: 3}
+    volume: 0.022
+  - trackName: level3
+    musicClip: {fileID: 8300000, guid: 468d2b030f9f93144aa64bcece00526f, type: 3}
+    volume: 0.022
+  playBackgroundMusicOnStart: 1
+  startingBackgroundMusicTrack: level1
+  cutsceneSequences:
+  - cutsceneName: JamesCutscene
+    musicTrackOnStart: 
+    openingFadeOutDuration: 1
+    openingFadeInDuration: 1
+    shots:
+    - shotName: preflop
+      background: {fileID: 21300000, guid: 4d172515e17389f43a4466b6bedd7b8c, type: 3}
+      displayDuration: 2
+      transitionToNextDuration: 0
+      soundEffect: {fileID: 8300000, guid: a9dabd3b4ab236247961a54efed2d6f4, type: 3}
+      soundVolume: 0.5
+    - shotName: flop1
+      background: {fileID: 21300000, guid: 717d72b5c9ba19d4dbcde0703838e899, type: 3}
+      displayDuration: 2
+      transitionToNextDuration: 0
+      soundEffect: {fileID: 8300000, guid: 9669a5d863832b142b85478be548d36c, type: 3}
+      soundVolume: 0.5
+    - shotName: flop2
+      background: {fileID: 21300000, guid: 0e74b985dafe79d4ca29519a960daa62, type: 3}
+      displayDuration: 2
+      transitionToNextDuration: 0
+      soundEffect: {fileID: 8300000, guid: 9669a5d863832b142b85478be548d36c, type: 3}
+      soundVolume: 0.5
+    - shotName: flop3
+      background: {fileID: 21300000, guid: 6d4809d369116af41bf65406fb1b4bae, type: 3}
+      displayDuration: 2
+      transitionToNextDuration: 0
+      soundEffect: {fileID: 8300000, guid: 9669a5d863832b142b85478be548d36c, type: 3}
+      soundVolume: 0.5
+    - shotName: flop4
+      background: {fileID: 21300000, guid: b8c275bc0410c9248bec6e5f8f586d7f, type: 3}
+      displayDuration: 2
+      transitionToNextDuration: 0
+      soundEffect: {fileID: 8300000, guid: 9669a5d863832b142b85478be548d36c, type: 3}
+      soundVolume: 0.5
+    - shotName: flop5
+      background: {fileID: 21300000, guid: 0578bd9e1a9d5424c8c3f95bd381ec10, type: 3}
+      displayDuration: 2
+      transitionToNextDuration: 0
+      soundEffect: {fileID: 8300000, guid: 9669a5d863832b142b85478be548d36c, type: 3}
+      soundVolume: 0.5
+    - shotName: final
+      background: {fileID: 21300000, guid: 09730037c41ddcf4b818c1596c74818e, type: 3}
+      displayDuration: 2
+      transitionToNextDuration: 1
+      soundEffect: {fileID: 8300000, guid: 7e0e27509cf01f340b276626a0efc84e, type: 3}
+      soundVolume: 0.087
+    returnBackground: {fileID: 21300000, guid: ca4db91a1cd576940ab3ef72e2ffa85b, type: 3}
+    clearAllTalkPointsOnReturn: 1
+    returnTalkPointSetName: 
+    endingFadeOutDuration: 1
+    endingFadeInDuration: 1
+    bossFight:
+      bossPrefab: {fileID: 9200589722664095970, guid: 7c9e1dbf853b70a4aaccf30be1f5431c, type: 3}
+      spawnPoint: {fileID: 1497091648}
+      spawnPosition: {x: 4, y: -2, z: 0}
+      introDialogue: You cheater! How dare you cheat against James "Trainee of the
+        Month" Murray?
+      introDuration: 3
+      italicizeIntro: 0
+      introVoiceLine: {fileID: 8300000, guid: 4ce86b0474c24ae4ba89ec2dbd06dc40, type: 3}
+      introVoiceVolume: 0.462
+      resetPlayerHealth: 1
+      confinePlayerToArena: 1
+      backgroundMusicTrack: level1boss
+      fadeAfterBossDefeated: 1
+      bossDefeatedFadeOutDuration: 1
+      bossDefeatedFadeInDuration: 1
+      onBossDefeated:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1523055774}
+            m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+            m_MethodName: SetBackground
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 4433348175613824913, guid: 00dc706387eda1a4f93f10a81ef6b9bf, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 1523055774}
+            m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+            m_MethodName: ChangeBackgroundMusic
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: level1
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 1523055774}
+            m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+            m_MethodName: SetButtons
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: lvl1_3
+              m_BoolArgument: 0
+            m_CallState: 2
+      playerDefeatedSprite: {fileID: 0}
+      playerDefeatedSpriteScale: 1
+      playerDefeatedDialogue: 
+      playerDefeatedDialogueDuration: 2.5
+      italicizePlayerDefeatedDialogue: 0
+      playerDefeatedVoiceLine: {fileID: 0}
+      playerDefeatedVoiceVolume: 1
+      cutsceneAfterPlayerDefeated: 
+      onPlayerDefeated:
+        m_PersistentCalls:
+          m_Calls: []
+    endGameAfterCutscene: 0
+  - cutsceneName: XenkCutscene
+    musicTrackOnStart: level2flashback
+    openingFadeOutDuration: 1
+    openingFadeInDuration: 1
+    shots:
+    - shotName: cut1
+      background: {fileID: -8911273460517368815, guid: 681b25f4b01abd0428ee7c036a25054b, type: 3}
+      displayDuration: 5
+      transitionToNextDuration: 1
+      soundEffect: {fileID: 0}
+      soundVolume: 0
+    - shotName: cut2
+      background: {fileID: -1882656570628420134, guid: ea79dc4b8a3f0784b98bffdf5096b886, type: 3}
+      displayDuration: 5
+      transitionToNextDuration: 1
+      soundEffect: {fileID: 0}
+      soundVolume: 0
+    - shotName: cut3
+      background: {fileID: 2756714752608711860, guid: f4c3d80189e68124a987790090774d7e, type: 3}
+      displayDuration: 5
+      transitionToNextDuration: 1
+      soundEffect: {fileID: 0}
+      soundVolume: 0
+    - shotName: cut4
+      background: {fileID: -7932058365542425261, guid: 96d862acbd56a8042a33b58f6694d89e, type: 3}
+      displayDuration: 5
+      transitionToNextDuration: 1
+      soundEffect: {fileID: 0}
+      soundVolume: 0
+    - shotName: cut5
+      background: {fileID: 1067169623261904986, guid: 3dd9138388b36274bafb20ef72a5e4c8, type: 3}
+      displayDuration: 5
+      transitionToNextDuration: 1
+      soundEffect: {fileID: 0}
+      soundVolume: 0
+    - shotName: cut6
+      background: {fileID: 4720184155452074078, guid: d5023c4917312c04b86be17fb8f7038a, type: 3}
+      displayDuration: 5
+      transitionToNextDuration: 1
+      soundEffect: {fileID: 0}
+      soundVolume: 0
+    returnBackground: {fileID: 2571469580784570198, guid: f9f38f45c54f4f8459422af2684c267a, type: 3}
+    clearAllTalkPointsOnReturn: 1
+    returnTalkPointSetName: 
+    endingFadeOutDuration: 1
+    endingFadeInDuration: 1
+    bossFight:
+      bossPrefab: {fileID: 9200589722664095970, guid: ea027d045a1b82b4d93322d8acf08ba2, type: 3}
+      spawnPoint: {fileID: 204171509}
+      spawnPosition: {x: 4, y: -2, z: 0}
+      introDialogue: You will pay for what you did to James!
+      introDuration: 2
+      italicizeIntro: 0
+      introVoiceLine: {fileID: 8300000, guid: cd0b9acced1806145a3955413df46803, type: 3}
+      introVoiceVolume: 0.095
+      resetPlayerHealth: 1
+      confinePlayerToArena: 1
+      backgroundMusicTrack: level1boss
+      fadeAfterBossDefeated: 1
+      bossDefeatedFadeOutDuration: 1
+      bossDefeatedFadeInDuration: 1
+      onBossDefeated:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1523055774}
+            m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+            m_MethodName: SetBackground
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 871362434642038364, guid: bf3381025fc4ea34e903a558056c3805, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 1523055774}
+            m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+            m_MethodName: SetButtons
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: lvl2_2
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 1523055774}
+            m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+            m_MethodName: ChangeBackgroundMusic
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: level2
+              m_BoolArgument: 0
+            m_CallState: 2
+      playerDefeatedSprite: {fileID: 0}
+      playerDefeatedSpriteScale: 1
+      playerDefeatedDialogue: 
+      playerDefeatedDialogueDuration: 2.5
+      italicizePlayerDefeatedDialogue: 0
+      playerDefeatedVoiceLine: {fileID: 0}
+      playerDefeatedVoiceVolume: 1
+      cutsceneAfterPlayerDefeated: 
+      onPlayerDefeated:
+        m_PersistentCalls:
+          m_Calls: []
+    endGameAfterCutscene: 0
+  - cutsceneName: FinalCutscene
+    musicTrackOnStart: 
+    openingFadeOutDuration: 1
+    openingFadeInDuration: 1
+    shots:
+    - shotName: cut1
+      background: {fileID: 21300000, guid: 279f8b5388de3a047b2cc3a3011f8577, type: 3}
+      displayDuration: 5
+      transitionToNextDuration: 1
+      soundEffect: {fileID: 8300000, guid: 2c234339b9721314999059bc39297eda, type: 3}
+      soundVolume: 0.331
+    returnBackground: {fileID: 2571469580784570198, guid: f9f38f45c54f4f8459422af2684c267a, type: 3}
+    clearAllTalkPointsOnReturn: 1
+    returnTalkPointSetName: 
+    endingFadeOutDuration: 1
+    endingFadeInDuration: 1
+    bossFight:
+      bossPrefab: {fileID: 0}
+      spawnPoint: {fileID: 0}
+      spawnPosition: {x: 4, y: -2, z: 0}
+      introDialogue: 
+      introDuration: 2
+      italicizeIntro: 0
+      introVoiceLine: {fileID: 8300000, guid: cd0b9acced1806145a3955413df46803, type: 3}
+      introVoiceVolume: 0.095
+      resetPlayerHealth: 1
+      confinePlayerToArena: 1
+      backgroundMusicTrack: level1boss
+      fadeAfterBossDefeated: 1
+      bossDefeatedFadeOutDuration: 1
+      bossDefeatedFadeInDuration: 1
+      onBossDefeated:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 1523055774}
+            m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+            m_MethodName: SetBackground
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 871362434642038364, guid: bf3381025fc4ea34e903a558056c3805, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Sprite, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 1523055774}
+            m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+            m_MethodName: SetButtons
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: lvl2_2
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 1523055774}
+            m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+            m_MethodName: ChangeBackgroundMusic
+            m_Mode: 5
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: level2
+              m_BoolArgument: 0
+            m_CallState: 2
+      playerDefeatedSprite: {fileID: 0}
+      playerDefeatedSpriteScale: 1
+      playerDefeatedDialogue: 
+      playerDefeatedDialogueDuration: 2.5
+      italicizePlayerDefeatedDialogue: 0
+      playerDefeatedVoiceLine: {fileID: 0}
+      playerDefeatedVoiceVolume: 1
+      cutsceneAfterPlayerDefeated: 
+      onPlayerDefeated:
+        m_PersistentCalls:
+          m_Calls: []
+    endGameAfterCutscene: 1
+  cutsceneAudioSource: {fileID: 400642605}
+  enableBossFightDebugShortcut: 1
+  debugBossCutsceneName: XenkCutscene
+  debugUseReturnBackground: 1
+  npcWalkAwayTalkPointSetName: lvl1_1
+  npcWalkAwayDialogueCount: 2
+  footstepAudioSource: {fileID: 852380179}
+  footstepSound: {fileID: 8300000, guid: 153e5d2d54d762447a06df599d9af125, type: 3}
+  loopFootstepSound: 0
+  footstepPlayTime: 4
+  fadeToBlackDuration: 0.8
+  fadeFromBlackDuration: 0.8
+  backgroundAfterNpcLeaves: lvl1_2
+  lockPlayerDuringTransition: 1
+--- !u!4 &1523055775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523055773}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 378794959}
+  - {fileID: 400642606}
+  - {fileID: 1873379990}
+  - {fileID: 852380180}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1523055776
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523055773}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.444
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &1532077803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1532077804}
+  m_Layer: 0
+  m_Name: BobSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1532077804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1532077803}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.18, y: -1.77, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1593752330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1593752331}
+  m_Layer: 0
+  m_Name: lvl1_TalkPoint_Surfer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1593752331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593752330}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3, y: 0.27, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1752559559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1752559560}
+  m_Layer: 0
+  m_Name: TaserSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1752559560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752559559}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.92, y: 2.11, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 173541616}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1873379988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1873379990}
+  - component: {fileID: 1873379989}
+  m_Layer: 0
+  m_Name: BackgroundMusicAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1873379989
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873379988}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.295
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1873379990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873379988}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.74827, y: -0.4196, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1523055775}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2070402562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2070402563}
+  m_Layer: 0
+  m_Name: lvl2_TalkPoint_Xenk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2070402563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070402562}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.76, y: 1.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2107638311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2107638312}
+  m_Layer: 0
+  m_Name: lvl1_TalkPoint_Bob
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2107638312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107638311}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.68, y: 0.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 519420032}
+  - {fileID: 619394802}
+  - {fileID: 843701598}
+  - {fileID: 1523055775}
+  - {fileID: 173541616}
+  - {fileID: 2107638312}
+  - {fileID: 280476018}
+  - {fileID: 1466398890}
+  - {fileID: 1593752331}
+  - {fileID: 72098551}
+  - {fileID: 663988898}
+  - {fileID: 1497091648}
+  - {fileID: 204171509}
+  - {fileID: 119643185}
+  - {fileID: 1269022689}
+  - {fileID: 1211697978}
+  - {fileID: 752878170}
+  - {fileID: 2070402563}
+  - {fileID: 471167787}
+  - {fileID: 1532077804}
+  - {fileID: 187255933}

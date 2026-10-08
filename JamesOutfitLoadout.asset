@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f3a5fc5f97d67c4daaae8b3386adcb8, type: 3}
+  m_Name: JamesOutfitLoadout
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLoadout
+  loadoutId: james_outfit
+  idleSprite: {fileID: 21300000, guid: 3d8cd6fb6e0097445934eb5f4bc481a1, type: 3}
+  walkFrames:
+  - {fileID: 21300000, guid: d51fc56b7f05b114db7a57c8ce27e4c3, type: 3}
+  - {fileID: 21300000, guid: cfc98d57c219ae0409ec4aaa8605b80f, type: 3}
+  - {fileID: 21300000, guid: e03af450ceb57414e807c64aa921c385, type: 3}
+  - {fileID: 21300000, guid: cfc98d57c219ae0409ec4aaa8605b80f, type: 3}
+  secondsPerWalkFrame: 0.5
+  attackStyleId: platter
